@@ -20,6 +20,7 @@ console.log(hasTargetSum([1, 2, 5], 4))
 
 /* 
   Add your pseudocode here
+
   iterate through the elements
   take an element and deduct from target save the results
   check if results exist in the rest of elements
@@ -28,6 +29,11 @@ console.log(hasTargetSum([1, 2, 5], 4))
 
 /*
   Add written explanation of your solution here
+  my solution relies on two key variables to work
+  its first deduct the current element in the iteration from target,
+  it then slices the array in away that it returns all the other elemnts that are ahead
+  uses include to check if the results are in that array.
+  includes has a big o of O(n) and since we run it once for each nth element, my big 0 should be n * o(n ) = o(n2)
 */
 
 // You can run `node index.js` to view these console logs
