@@ -15,6 +15,7 @@ console.log(hasTargetSum([1, 2, 5], 4))
 /* 
   Write the Big O time complexity of your function here
   our runtime will be quadratic
+  our space complexity will be o(n2) quadratic cause we create another auxiliary array
 
 */
 
